@@ -3,6 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=League+Gothic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>Sport CarSell Import</title>
     
     <!-- Google Fonts -->
@@ -21,110 +29,82 @@
         <img class="logo" src="assets/img/cars/logo.png" alt="Logo">
         <nav>
             <ul>
-                <li><a href="#" class="menu-link">Home</a></li>
-                <li><a href="#" class="menu-link">Carros</a></li>
-                <li><a href="#" class="menu-link">Marcas</a></li>
-                <li><a href="#" class="menu-link">Fale Conosco</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Carros</a></li>
+                <li><a href="#">Marcas</a></li>
+                <li><a href="#">Fale Conosco</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Seção Principal -->
-    <section class="hero-section">
-        
-        <!-- Lista de carros -->
+    <!-- 2- Carros showcase -->
+     <section>
         <div class="list">
+            <!-- Ferrari -->
             <div class="item active">
                 <div class="car-img">
-                    <img src="assets/img/cars/ferrari.png" alt="Ferrari">
-                </div>
-                <div class="content">
-                    <p class="car-information">Modelo Exclusivo</p>
-                    <h2>Ferrari LaFerrari</h2>
-                    <p class="description">Desempenho incomparável, design icônico e exclusividade: escolha sua Ferrari e experimente a emoção de dirigir uma lenda.</p>
-                    <button class="btn-info">Saiba Mais</button>
-                </div>
-            </div>
-            <div class="item">
-                <div class="car-img">
-                    <img src="assets/img/cars/ferrari.png" alt="Ferrari F40">
-                </div>
-                <div class="content">
-                    <p class="car-information">Ícone Clássico</p>
-                    <h2>Ferrari F40</h2>
-                    <p class="description">Uma das Ferraris mais lendárias já construídas. Potência, leveza e um legado inigualável.</p>
-                    <button class="btn-info">Saiba Mais</button>
+                    <img src="assets/img/cars/ferrari.png" alt="ferrari">
+                    <div class="content">
+                        <p class="car-information">Modelo Exclusivo</p>
+                        <h2>Ferrari</h2>
+                        <p class="description">
+                            Desempenho incomparável, design icônico e exclusividade: escolha sua Ferrari e experimente a emoção de dirigir uma lenda.
+                        </p>
+                        <button class="btn-info">Saiba Mais</button>
+                    </div>
                 </div>
             </div>
+            
+            <!-- Lamborghini -->
             <div class="item">
                 <div class="car-img">
-                    <img src="assets/img/cars/ferrari.png" alt="Ferrari SF90">
+                    <img src="assets/img/cars/lamborghini.png" alt="lamborghini">
+                    <div class="content">
+                        <p class="car-information">Potência Italiana</p>
+                        <h2>Lamborghini</h2>
+                        <p class="description">
+                            Design agressivo e desempenho extraordinário: a Lamborghini une força e beleza em uma experiência de condução incomparável.
+                        </p>
+                        <button class="btn-info">Saiba Mais</button>
+                    </div>
                 </div>
-                <div class="content">
-                    <p class="car-information">Híbrido de Alta Performance</p>
-                    <h2>Ferrari SF90 Stradale</h2>
-                    <p class="description">A Ferrari mais potente já feita, com tecnologia híbrida de ponta e desempenho extremo.</p>
-                    <button class="btn-info">Saiba Mais</button>
+            </div>
+            
+            <!-- Porsche -->
+            <div class="item">
+                <div class="car-img">
+                    <img src="assets/img/cars/porsche.png" alt="porsche">
+                    <div class="content">
+                        <p class="car-information">Engenharia Alemã</p>
+                        <h2>Porsche</h2>
+                        <p class="description">
+                            Precisão alemã e herança esportiva: a Porsche oferece dirigibilidade refinada e desempenho consistente para os apaixonados por velocidade.
+                        </p>
+                        <button class="btn-info">Saiba Mais</button>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <!-- Setas de Navegação -->
+ 
+        <!-- 7 - setas -->
         <div class="arrows">
-            <button class="arrow left"><i class="fas fa-chevron-left"></i></button>
-            <button class="arrow right"><i class="fas fa-chevron-right"></i></button>
+          <button class="arrow arrow-left"><img src="./assets/img/icons/right-arrow-svgrepo-com.svg" alt="seta esquerda"></button>
+          <button class="arrow arrow-right"><img src="./assets/img/icons/right-arrow-svgrepo-com.svg" alt="seta direita"></button>
         </div>
-
-        <!-- Indicadores -->
+           
+        <!-- 8 - indicador- number -->
         <div class="indicators">
             <div class="number">01</div>
             <ul>
-                <li class="active"></li>
-                <li></li>
-                <li></li>
+                <li class="indicator active" data-index="0"></li>
+                <li class="indicator" data-index="1"></li>
+                <li class="indicator" data-index="2"></li>
+                <i data-lucide="menu"></i>
             </ul>
         </div>
+     </section>
 
-    </section>
-
-<section>
-    <!-- From Uiverse.io by ilkhoeri --> 
-<div class="wrapper">
-    <div class="inner" style="--quantity: 10;">
-      <div class="card" style="--index: 0;--color-card: 142, 249, 252;">
-        <div class="img"></div>
-      </div>
-      <div class="card" style="--index: 1;--color-card: 142, 252, 204;">
-        <div class="img"></div>
-      </div>
-      <div class="card" style="--index: 2;--color-card: 142, 252, 157;">
-        <div class="img"></div>
-      </div>
-      <div class="card" style="--index: 3;--color-card: 215, 252, 142;">
-        <div class="img"></div>
-      </div>
-      <div class="card" style="--index: 4;--color-card: 252, 252, 142;">
-        <div class="img"></div>
-      </div>
-      <div class="card" style="--index: 5;--color-card: 252, 208, 142;">
-        <div class="img"></div>
-      </div>
-      <div class="card" style="--index: 6;--color-card: 252, 142, 142;">
-        <div class="img"></div>
-      </div>
-      <div class="card" style="--index: 7;--color-card: 252, 142, 239;">
-        <div class="img"></div>
-      </div>
-      <div class="card" style="--index: 8;--color-card: 204, 142, 252;">
-        <div class="img"></div>
-      </div>
-      <div class="card" style="--index: 9;--color-card: 142, 202, 252;">
-        <div class="img"></div>
-      </div>
-    </div>
-  </div>  
-</section>
-
-    <script src="assets/js/script.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/lucide@0.475.0/dist/umd/lucide.min.js"></script>
+     <script src="assets/js/script.js"></script>
 </body>
 </html>
