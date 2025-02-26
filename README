@@ -1,0 +1,46 @@
+# Sport CarSell Import 🚗💨
+
+## 📌 Sobre o Projeto
+O **Sport CarSell Import** é um site dinâmico desenvolvido para apresentar carros esportivos de alto desempenho. Inspirado no design oficial da Ferrari, ele traz uma interface moderna, escura e interativa, proporcionando uma experiência imersiva aos visitantes.
+
+## 🔥 Funcionalidades
+- Exibição dinâmica de modelos de carros.
+- Animação suave na transição entre os veículos.
+- Navegação intuitiva com botões e indicadores.
+- Interface responsiva e estilizada com TailwindCSS.
+
+## 🛠 Tecnologias Utilizadas
+- **HTML5** → Estrutura do site.
+- **CSS3 (TailwindCSS)** → Estilização moderna.
+- **JavaScript (Node.js)** → Funcionalidades interativas.
+
+## 🚀 Como Rodar o Projeto
+### 1️⃣ Pré-requisitos
+- Navegador atualizado (Chrome, Edge, Firefox, etc.)
+- Servidor local para rodar (Exemplo: Live Server do VS Code)
+
+### 2️⃣ Clonar o Repositório
+```bash
+  git clone https://github.com/seu-usuario/sportcarsell.git
+  cd sportcarsell
+```
+
+### 3️⃣ Abrir no Navegador
+Se estiver no VS Code, use a extensão **Live Server** ou abra o arquivo `index.html` diretamente no navegador.
+
+## 🎨 Layout e Design
+O layout do projeto foi inspirado na identidade visual da Ferrari, utilizando um tema escuro com detalhes vibrantes.
+
+## 📌 Melhorias Futuras
+- Implementação de banco de dados para gerenciamento de carros.
+- Página detalhada para cada modelo.
+- Integração com APIs para buscar preços atualizados.
+
+## 📞 Contato
+Caso tenha dúvidas ou sugestões, entre em contato:
+- ✉️ Email: seuemail@exemplo.com
+- 🌎 [LinkedIn](https://www.linkedin.com/in/seuusuario)
+
+---
+**Desenvolvido por [Seu Nome] 🚀**
+
