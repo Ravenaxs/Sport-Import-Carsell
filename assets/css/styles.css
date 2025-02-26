@@ -1,13 +1,14 @@
+/* Reset Básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
 }
 
 body {
     background-color: #000;
     color: #fff;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
@@ -31,13 +32,14 @@ header {
     z-index: 10;
 }
 
-.logo{
+.logo {
     width: 250px;
 }
 
 header nav ul {
     display: flex;
-    gap: 40px; 
+    gap: 20px;
+    list-style: none;
 }
 
 header nav ul li {
@@ -50,11 +52,16 @@ header nav ul li:hover {
     color: #beff1b;
 }
 
-/* Seção principal */
-section {
-    background: radial-gradient(#7f3d9e, #6d00d9);
+.menu-link:hover {
+    color: red;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+/* Seção Principal */
+.hero-section {
     height: 100vh;
-    width: 100vw; 
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,14 +110,17 @@ section {
     cursor: pointer;
 }
 
+/* Lista de Carros */
 .list {
-    width: 70vw;
-    height: 100%;
-    margin: auto;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     overflow: hidden;
 }
 
+/* Cada carro */
 .item {
     position: absolute;
     inset: 0;
