@@ -3,93 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-    href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-    href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=League+Gothic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
-    <link rel="stylesheet" href="assets/css/styles.css">
     <title>Sport CarSell Import</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Ícones FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
 
-    <!-- 1 - cabeçalho -->
+    <!-- Cabeçalho -->
     <header>
-        <img class="logo" src="assets/img/cars/logo.png" alt="logo fp">
+        <img class="logo" src="assets/img/cars/logo.png" alt="Logo">
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Carros</li>
-                <li>Marcas</li>
-                <li>Fale Conosco</li>
+                <li><a href="#" class="menu-link">Home</a></li>
+                <li><a href="#" class="menu-link">Carros</a></li>
+                <li><a href="#" class="menu-link">Marcas</a></li>
+                <li><a href="#" class="menu-link">Fale Conosco</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- 2- Ferrari- home -->
-     <section>
-
+    <!-- Seção Principal -->
+    <section class="hero-section">
+        
+        <!-- Lista de carros -->
         <div class="list">
+            <div class="item active">
+                <div class="car-img">
+                    <img src="assets/img/cars/ferrari.png" alt="Ferrari">
+                </div>
+                <div class="content">
+                    <p class="car-information">Modelo Exclusivo</p>
+                    <h2>Ferrari LaFerrari</h2>
+                    <p class="description">Desempenho incomparável, design icônico e exclusividade: escolha sua Ferrari e experimente a emoção de dirigir uma lenda.</p>
+                    <button class="btn-info">Saiba Mais</button>
+                </div>
+            </div>
             <div class="item">
                 <div class="car-img">
-                    <img src="assets/img/cars/ferrari.png" alt="ferrari">
-                    <div class="content">
-
-                        <!-- 3 - informação -->
-                        <p class="car-information">
-                            Modelo Exclusivo
-                        </p>
-
-                        <!-- 4 - titulo -->
-                        <h2>
-                            Ferrari
-                        </h2>
-
-                        <!-- 5 - descrição -->
-                        <p class="description">
-                            Desempenho incomparável, design icônico e exclusividade: escolha sua Ferrari e experimente a emoção de dirigir uma lenda.
-                        </p>
-
-                        <!-- 6 - botão -->
-                         <button class="btn-info">
-                            Saiba Mais
-                         </button>
-
-                    </div>
-
+                    <img src="assets/img/cars/ferrari.png" alt="Ferrari F40">
+                </div>
+                <div class="content">
+                    <p class="car-information">Ícone Clássico</p>
+                    <h2>Ferrari F40</h2>
+                    <p class="description">Uma das Ferraris mais lendárias já construídas. Potência, leveza e um legado inigualável.</p>
+                    <button class="btn-info">Saiba Mais</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="car-img">
+                    <img src="assets/img/cars/ferrari.png" alt="Ferrari SF90">
+                </div>
+                <div class="content">
+                    <p class="car-information">Híbrido de Alta Performance</p>
+                    <h2>Ferrari SF90 Stradale</h2>
+                    <p class="description">A Ferrari mais potente já feita, com tecnologia híbrida de ponta e desempenho extremo.</p>
+                    <button class="btn-info">Saiba Mais</button>
                 </div>
             </div>
         </div>
- 
 
-        <!-- 7 - setas -->
+        <!-- Setas de Navegação -->
         <div class="arrows">
-          <button class="seta-esquerda"><img src="./assets/img/icons/right-arrow-svgrepo-com.svg" alt="seta esquerda"></button>
-          <button><img src="./assets/img/icons/right-arrow-svgrepo-com.svg" alt="seta direita"></button>
-
+            <button class="arrow left"><i class="fas fa-chevron-left"></i></button>
+            <button class="arrow right"><i class="fas fa-chevron-right"></i></button>
         </div>
-           
 
-        <!-- 8 - indicador- number -->
+        <!-- Indicadores -->
         <div class="indicators">
             <div class="number">01</div>
             <ul>
                 <li class="active"></li>
-                <li class="active"></li>
-                <li class="active"></li>
-                <i data-lucide="menu"></i>
+                <li></li>
+                <li></li>
             </ul>
         </div>
 
+    </section>
 
-     </section>
-
-     <script src="https://cdn.jsdelivr.net/npm/lucide@0.475.0/dist/umd/lucide.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
